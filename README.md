@@ -18,8 +18,11 @@ The app is structured in a backend server written in Python using Flask and a we
 
 ### Running the frontend
 
+    The project was developed using yarn instead of npm, but using either of them should work fine.
+
 1. Go to the backend directory with ```cd frontend```
-2. Install the dependencies with ```npm install```
-3. Run the app on port 3000 with ```npm run dev```
+2. (Optional) Install yarn with ```npm install -g yarn``` if you don't have it already
+3. Install the dependencies with ```yarn``` or with ```npm install```
+4. Run the app on port 3000 with ```yarn dev``` or ```npm run dev```
 
 Once both apps are running you can see the website on http://localhost:3000
