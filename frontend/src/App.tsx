@@ -40,7 +40,7 @@ function App() {
 
   return (
     <Flex
-      w={'100vw'} h={'100vh'} py={'14'} px={['5', '36']}
+      w={'100vw'} h={'100vh'} minH={'xl'} py={'14'} px={['5', '36']}
       align={'center'} flexDir={'column'} justifyContent={'space-between'}
       as={'form'}
       onSubmit={e => {
